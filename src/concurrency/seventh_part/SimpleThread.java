@@ -22,7 +22,7 @@ public class SimpleThread extends Thread {
     @Override
     public void run() {
         while (true) {
-            System.out.println(this);
+            System.out.print(this);
             if (--countDown == 0) {
                 return;
             }
